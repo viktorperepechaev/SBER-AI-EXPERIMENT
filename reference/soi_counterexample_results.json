@@ -1,0 +1,347 @@
+{
+  "setup": {
+    "benchmark": "synergy",
+    "setting": 0,
+    "blocks": [
+      3,
+      3,
+      4
+    ],
+    "dimension_per_variable": 20,
+    "total_coordinates": 200,
+    "samples_for_classical_estimator": 100000,
+    "paper_training_samples": 100000,
+    "paper_test_samples": 10000,
+    "seeds_for_classical_estimator": [
+      11,
+      22,
+      33,
+      55,
+      77,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "rhos": [
+      0.6,
+      0.65,
+      0.7
+    ],
+    "transformation": "x * sqrt(abs(x))",
+    "units": "nats",
+    "author_code_commit": "12952f58136454f813dc2887db220876823e053a",
+    "fit_uses_true_covariance": false,
+    "fit_uses_inverse_half_cube": false,
+    "network_retrained": false,
+    "sampling": "Independent normal draws, same covariance law and sample budget; not identical author data or paired runs.",
+    "normalization": "Positive affine standardization after the half-cube transform leaves the rank estimator exactly unchanged."
+  },
+  "summaries": [
+    {
+      "rho": 0.6,
+      "truth_nats": -7.169078099165672,
+      "copula_mean_nats": -7.165777426564406,
+      "copula_std_nats": 0.011814253761408605,
+      "copula_rmse_nats": 0.011683893715958345,
+      "copula_max_abs_error_nats": 0.018531330794145262,
+      "median_fit_seconds": 1.8203962705447339,
+      "published_soi_approx_nats": -5.555555555555548,
+      "published_soi_mean_abs_error_approx_nats": 1.6135225436101237,
+      "image_tolerance_adjusted_soi_mean_error_lower_nats": 1.4635225436101238
+    },
+    {
+      "rho": 0.65,
+      "truth_nats": -9.161423207254977,
+      "copula_mean_nats": -9.157545372280442,
+      "copula_std_nats": 0.013292928672264826,
+      "copula_rmse_nats": 0.013193534837451984,
+      "copula_max_abs_error_nats": 0.020544072354706344,
+      "median_fit_seconds": 1.7564712494495325,
+      "published_soi_approx_nats": -7.046783625730988,
+      "published_soi_mean_abs_error_approx_nats": 2.1146395815239885,
+      "image_tolerance_adjusted_soi_mean_error_lower_nats": 1.9646395815239885
+    },
+    {
+      "rho": 0.7,
+      "truth_nats": -11.73713316867618,
+      "copula_mean_nats": -11.73252374911257,
+      "copula_std_nats": 0.01493670772946142,
+      "copula_rmse_nats": 0.014901055758878264,
+      "copula_max_abs_error_nats": 0.0227983000682066,
+      "median_fit_seconds": 1.758279271016363,
+      "published_soi_approx_nats": -9.152046783625723,
+      "published_soi_mean_abs_error_approx_nats": 2.5850863850504577,
+      "image_tolerance_adjusted_soi_mean_error_lower_nats": 2.435086385050458
+    }
+  ],
+  "replicates": [
+    {
+      "rho": 0.6,
+      "seed": 11,
+      "estimate_nats": -7.1583918738269094,
+      "error_nats": 0.010686225338762512,
+      "fit_seconds": 2.0166342079173774
+    },
+    {
+      "rho": 0.6,
+      "seed": 22,
+      "estimate_nats": -7.170478208980795,
+      "error_nats": -0.0014001098151226188,
+      "fit_seconds": 1.8550122089218348
+    },
+    {
+      "rho": 0.6,
+      "seed": 33,
+      "estimate_nats": -7.164963821500862,
+      "error_nats": 0.004114277664809762,
+      "fit_seconds": 1.8334458330646157
+    },
+    {
+      "rho": 0.6,
+      "seed": 55,
+      "estimate_nats": -7.166299962163042,
+      "error_nats": 0.0027781370026298546,
+      "fit_seconds": 1.6980562079697847
+    },
+    {
+      "rho": 0.6,
+      "seed": 77,
+      "estimate_nats": -7.178204268433033,
+      "error_nats": -0.009126169267361206,
+      "fit_seconds": 1.807346708024852
+    },
+    {
+      "rho": 0.6,
+      "seed": 0,
+      "estimate_nats": -7.184665648650109,
+      "error_nats": -0.015587549484436636,
+      "fit_seconds": 1.92392558301799
+    },
+    {
+      "rho": 0.6,
+      "seed": 1,
+      "estimate_nats": -7.150546768371527,
+      "error_nats": 0.018531330794145262,
+      "fit_seconds": 1.7154641669476405
+    },
+    {
+      "rho": 0.6,
+      "seed": 2,
+      "estimate_nats": -7.152411148515204,
+      "error_nats": 0.016666950650467527,
+      "fit_seconds": 1.7458785419585183
+    },
+    {
+      "rho": 0.6,
+      "seed": 3,
+      "estimate_nats": -7.15457588745781,
+      "error_nats": 0.014502211707862145,
+      "fit_seconds": 1.7788144579390064
+    },
+    {
+      "rho": 0.6,
+      "seed": 4,
+      "estimate_nats": -7.177236677744767,
+      "error_nats": -0.008158578579094744,
+      "fit_seconds": 1.9122976660728455
+    },
+    {
+      "rho": 0.65,
+      "seed": 11,
+      "estimate_nats": -9.148952108667494,
+      "error_nats": 0.012471098587482743,
+      "fit_seconds": 1.7849072499666363
+    },
+    {
+      "rho": 0.65,
+      "seed": 22,
+      "estimate_nats": -9.162091761419507,
+      "error_nats": -0.0006685541645303772,
+      "fit_seconds": 1.7137812079163268
+    },
+    {
+      "rho": 0.65,
+      "seed": 33,
+      "estimate_nats": -9.155563916036035,
+      "error_nats": 0.005859291218941465,
+      "fit_seconds": 1.7856734580127522
+    },
+    {
+      "rho": 0.65,
+      "seed": 55,
+      "estimate_nats": -9.159825339743364,
+      "error_nats": 0.0015978675116130603,
+      "fit_seconds": 1.7647004580358043
+    },
+    {
+      "rho": 0.65,
+      "seed": 77,
+      "estimate_nats": -9.170592763728807,
+      "error_nats": -0.009169556473830554,
+      "fit_seconds": 1.9682027080561966
+    },
+    {
+      "rho": 0.65,
+      "seed": 0,
+      "estimate_nats": -9.179596894806677,
+      "error_nats": -0.018173687551700013,
+      "fit_seconds": 1.7136160839581862
+    },
+    {
+      "rho": 0.65,
+      "seed": 1,
+      "estimate_nats": -9.14087913490027,
+      "error_nats": 0.020544072354706344,
+      "fit_seconds": 1.6805879588937387
+    },
+    {
+      "rho": 0.65,
+      "seed": 2,
+      "estimate_nats": -9.141975005006675,
+      "error_nats": 0.019448202248302238,
+      "fit_seconds": 1.6988891669316217
+    },
+    {
+      "rho": 0.65,
+      "seed": 3,
+      "estimate_nats": -9.145546878050695,
+      "error_nats": 0.015876329204282058,
+      "fit_seconds": 1.7501305409241468
+    },
+    {
+      "rho": 0.65,
+      "seed": 4,
+      "estimate_nats": -9.170429920444889,
+      "error_nats": -0.009006713189911864,
+      "fit_seconds": 1.7628119579749182
+    },
+    {
+      "rho": 0.7,
+      "seed": 11,
+      "estimate_nats": -11.722544686293007,
+      "error_nats": 0.014588482383173229,
+      "fit_seconds": 1.7103056659689173
+    },
+    {
+      "rho": 0.7,
+      "seed": 22,
+      "estimate_nats": -11.736819176515612,
+      "error_nats": 0.0003139921605690432,
+      "fit_seconds": 1.8792884579161182
+    },
+    {
+      "rho": 0.7,
+      "seed": 33,
+      "estimate_nats": -11.72904093417816,
+      "error_nats": 0.008092234498020545,
+      "fit_seconds": 1.6932712909765542
+    },
+    {
+      "rho": 0.7,
+      "seed": 55,
+      "estimate_nats": -11.737286004857456,
+      "error_nats": -0.0001528361812752621,
+      "fit_seconds": 1.7498027080437168
+    },
+    {
+      "rho": 0.7,
+      "seed": 77,
+      "estimate_nats": -11.746007718892116,
+      "error_nats": -0.008874550215935528,
+      "fit_seconds": 1.9622739579062909
+    },
+    {
+      "rho": 0.7,
+      "seed": 0,
+      "estimate_nats": -11.7581612973855,
+      "error_nats": -0.021028128709319915,
+      "fit_seconds": 1.7403243329608813
+    },
+    {
+      "rho": 0.7,
+      "seed": 1,
+      "estimate_nats": -11.714334868607974,
+      "error_nats": 0.0227983000682066,
+      "fit_seconds": 1.7525239170063287
+    },
+    {
+      "rho": 0.7,
+      "seed": 2,
+      "estimate_nats": -11.714634254672767,
+      "error_nats": 0.022498914003413972,
+      "fit_seconds": 1.7640346250263974
+    },
+    {
+      "rho": 0.7,
+      "seed": 3,
+      "estimate_nats": -11.71970966981353,
+      "error_nats": 0.017423498862649822,
+      "fit_seconds": 1.7862442079931498
+    },
+    {
+      "rho": 0.7,
+      "seed": 4,
+      "estimate_nats": -11.746698879909593,
+      "error_nats": -0.009565711233411989,
+      "fit_seconds": 1.7681321250274777
+    }
+  ],
+  "digitization": {
+    "method": "Median saturated-blue pixels near the three leftmost star markers of the unmodified original embedded JPEG; linear calibration from labeled axis ticks.",
+    "reading_tolerance_nats": 0.15,
+    "reading_tolerance_note": "Conservative image-reading tolerance, NOT statistical uncertainty or a confidence interval.",
+    "sha256": "1e5b385df7ec43c35782343547e7418254eca3da5e3925691b36d52665e315d4",
+    "x_tick_pixels": [
+      416.0,
+      780.0,
+      1145.0
+    ],
+    "x_tick_values": [
+      -10.0,
+      -5.0,
+      0.0
+    ],
+    "y_tick_pixels": [
+      118.0,
+      289.0,
+      460.0,
+      631.0
+    ],
+    "y_tick_values": [
+      5.0,
+      0.0,
+      -5.0,
+      -10.0
+    ],
+    "points": [
+      {
+        "rho": 0.6,
+        "true_omega_nats": -7.169078099165672,
+        "published_soi_approx_nats": -5.555555555555548,
+        "mean_pixel_x": 622.0,
+        "mean_pixel_y": 479.0,
+        "mean_abs_error_approx_nats": 1.6135225436101237
+      },
+      {
+        "rho": 0.65,
+        "true_omega_nats": -9.161423207254977,
+        "published_soi_approx_nats": -7.046783625730988,
+        "mean_pixel_x": 477.0,
+        "mean_pixel_y": 530.0,
+        "mean_abs_error_approx_nats": 2.1146395815239885
+      },
+      {
+        "rho": 0.7,
+        "true_omega_nats": -11.73713316867618,
+        "published_soi_approx_nats": -9.152046783625723,
+        "mean_pixel_x": 289.0,
+        "mean_pixel_y": 602.0,
+        "mean_abs_error_approx_nats": 2.5850863850504577
+      }
+    ]
+  },
+  "interpretation": "Compare classical Monte Carlo RMSE with the absolute deviation of the published S\u03a9I mean. These are explicitly different reported statistics; the latter is a lower bound on the empirical RMSE of the author runs represented by that mean. Raw author predictions were unavailable in the repository and no significance test or full neural reproduction is claimed.",
+  "scope": "Selected counterexample within a Gaussian-copula family. Does not show universal inferiority of S\u03a9I or invalidate its theoretical identities."
+}

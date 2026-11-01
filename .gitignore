@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+/soi_counterexample_results.json
+/soi_counterexample.png
